@@ -5,6 +5,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* starting of navbar */
+
 .navbar {
   background-color: #fff5f0;
   padding: 1rem 0;
@@ -30,6 +32,7 @@
   font-style: normal;
   line-height: 2rem;
   color: #252b42;
+  cursor: pointer;
 }
 
 .navbar__links {
@@ -40,7 +43,7 @@
 
 .navabar__link {
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   line-height: 1.5rem;
   color: #737373;
   cursor: pointer;
@@ -75,4 +78,60 @@
 
 .navbar__button--primary {
   background: #1ba0ab;
+}
+
+/* starting of showcase */
+
+.showcase {
+  background-color: #fff5f0;
+  padding: 1rem 0;
+}
+
+.showcase__container {
+  max-width: 80vw;
+  margin: 8.5rem auto;
+}
+
+.showcase__title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1ba0ab;
+}
+
+.showcase__heading {
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 5rem;
+  color: #252b42;
+  margin-top: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.showcase__description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #737373;
+}
+
+.showcase__footer {
+  display: flex;
+  margin: 1.5rem 0;
+  gap: 1rem;
+}
+
+.showcase__button {
+  padding: 1rem 1.5rem;
+  border: 2px solid #1ba0ab;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #1ba0ab;
+  cursor: pointer;
+}
+
+.showcase__button--primary {
+  color: white;
+  background-color: #1ba0ab;
 }
