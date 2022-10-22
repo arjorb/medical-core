@@ -88,23 +88,24 @@
 }
 
 .showcase__container {
-  max-width: 80vw;
+  max-width: 82vw;
   margin: 8.5rem auto;
 }
 
 .showcase__title {
   font-size: 1rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #1ba0ab;
 }
 
 .showcase__heading {
-  font-size: 3.3rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
   line-height: 5rem;
+  letter-spacing: 0.2px;
   color: #252b42;
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
   margin-bottom: 0.9rem;
 }
 
@@ -117,13 +118,13 @@
 
 .showcase__footer {
   display: flex;
-  margin: 1.5rem 0;
-  gap: 1rem;
+  margin: 1.3rem 0;
+  gap: 0.5rem;
 }
 
 .showcase__button {
-  padding: 1rem 1.5rem;
-  border: 2px solid #1ba0ab;
+  padding: 1rem 2rem;
+  border: 1px solid #1ba0ab;
   font-size: 0.8rem;
   font-weight: 700;
   border-radius: 5px;
@@ -172,5 +173,95 @@
   font-weight: 600;
   line-height: 1.5rem;
   color: #1ba0ab;
+  cursor: pointer;
+}
+
+/* starting of team segment */
+
+.team {
+  width: 73vw;
+  margin: 9rem auto;
+}
+
+.team__title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #1ba0ab;
+}
+
+.team__heading {
+  margin: 0.3rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 50px;
+  color: #252b42;
+}
+
+.team__description {
+  width: 469px;
+  height: 40px;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #737373;
+}
+
+.team__card {
+  margin: 5rem 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card__picture {
+  width: block;
+  height: 60%;
+}
+.card__picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__content {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.card__title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #252b42;
+}
+.card__role {
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #737373;
+}
+.card__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.card__media img {
+  width: 18px;
+  height: 18px;
   cursor: pointer;
 }
