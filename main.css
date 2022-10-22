@@ -219,7 +219,7 @@
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -264,4 +264,66 @@
   width: 18px;
   height: 18px;
   cursor: pointer;
+}
+
+/* starting of navbar */
+
+.footer {
+  background-color: #fff5f0;
+  padding: 7rem 0;
+}
+.footer__container {
+  max-width: 50%;
+  margin: 0rem auto;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #1ba0ab;
+}
+
+.footer__heading {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #252b42;
+}
+
+.footer__description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #737373;
+}
+
+.footer__form {
+  margin: 4rem 0;
+  display: flex;
+}
+.footer__input {
+  flex-grow: 1;
+}
+.footer__input input {
+  width: 100%;
+  height: 45px;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  outline: none;
+  border: 1px solid #a0a0a0;
+}
+.footer__button {
+  padding: 0 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer__button--primary {
+  color: white;
+  background-color: #1ba0ab;
 }
