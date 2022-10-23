@@ -32,9 +32,10 @@
           <div class="navbar__login">
             <p>Login</p>
           </div>
-          <button class="navbar__button navbar__button--primary">
-            JOIN US
-            <img src="assets/right.svg" class="navabar__svg" alt="arrow" />
+          <!-- beacuse buttons are typically used in various places across medical core webpage, I think designing a button that just lives inside a navbar as the element would be pretty inefficient. that's why i turn it to be into block on it's own so that I may use it as an independent. -->
+          <button class="btn btn--primary btn--small">
+            but JOIN US
+            <img src="assets/right.svg" alt="arrow" />
           </button>
         </div>
       </div>
@@ -53,8 +54,8 @@
           Get your best looking smile now!
         </div>
         <div class="showcase__footer">
-          <div class="showcase__button showcase__button--primary">Join us</div>
-          <div class="showcase__button">Learn More</div>
+          <div class="btn btn--primary btn--small">Join us</div>
+          <div class="btn btn--medium btn--border">Learn More</div>
         </div>
       </div>
     </div>
@@ -169,9 +170,7 @@
           <div class="footer__input">
             <input type="text" placeholder="Your Email" />
           </div>
-          <button class="footer__button footer__button--primary">
-            Subscribe
-          </button>
+          <button class="btn btn--primary btn--big">Subscribe</button>
         </div>
       </div>
     </div>
